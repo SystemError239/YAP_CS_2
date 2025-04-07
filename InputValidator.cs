@@ -8,7 +8,7 @@ class InputValidator
             Console.Write(prompt);
             if (int.TryParse(Console.ReadLine(), out value) && value >= min && value <= max)
                 return value;
-            Console.WriteLine($"Îøèáêà! Ââåäèòå öåëîå ÷èñëî îò {min} äî {max}.");
+            Console.WriteLine($"ÐžÑˆÐ¸Ð±ÐºÐ°! Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ {min} Ð´Ð¾ {max}.");
         }
     }
 
@@ -20,7 +20,7 @@ class InputValidator
             Console.Write(prompt);
             if (double.TryParse(Console.ReadLine(), out value))
                 return value;
-            Console.WriteLine("Îøèáêà! Ââåäèòå ÷èñëî.");
+            Console.WriteLine("ÐžÑˆÐ¸Ð±ÐºÐ°! Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾.");
         }
     }
 }
